@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Anton-Regular;
+    src: url(Lusitana-Regular.ttf);
+}
+
+body {
+	background-color: #ffffff;
+	margin: 5% 8%;
+	font-family: sans-serif;
+}
+
+#principal{
+	border-style: outset;
+	margin: 5%;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+#datosPeliculas{
+	margin: 3%;	
+}
+
+#id_datos{
+
+	padding-left:4%;
+	padding-right:4%;
+	padding-bottom:2%;
+	margin-bottom:2%;
+	display: inline-block;
+	border-bottom: 1.5px;
+	border-top: 0pt;
+	border-left: 0pt;
+	border-right: 0pt;
+	border-style: dashed;
+
+}
+
+h1 {
+	text-align: center;
+	font-family: Anton-Regular;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #414239;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 4em;
+
+	border-bottom: 1.5px;
+	border-top: 0pt;
+	border-left: 0pt;
+	border-right: 0pt;
+	border-style: outset;
+}
+
+h2 {
+	text-align: left;
+	font-family: Lobster-Regular;
+	font-size: 16;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #9e0947;
+	font-size: 2.5em;
+}
+
+
+
+ul{ 
+	list-style-image: url("http://web-toolkit.global.sky.com/2.2.13-rc-v1/_site/static/font-svgs/carousel-play.svg"); 
+}
+
+
+li[famoso="id_lista_principal"]{
+	font-weight: bold;
+
+}
+
+li[famoso="id_lista_secundario"]{
+	font-style: italic;
+}
+
+
+
+div.des_bloque img {
+    width: 100%;
+    height: auto;
+}
+
+div.class_detalle {
+    padding: 15px;
+    text-align: justify;
+    font-family:  Verdana;
+}
+
+div.class_sin {   
+	font-family: Verdana;
+	font-size: 1em;
+	color: #ce105c;
+	text-align: center;
+}
+
+
+div.class_sin_r {
+    text-align: justify;
+    font-family:  Verdana;
+    width: 250px;
+    margin:1%;
+
+}
+div.id_detalle_r {   
+	font-family: Verdana;
+	font-size: 1em;
+	color: #ce105c;
+	text-align: center;
+}
+
+.bloque {
+    float: left;
+    width: 24.99999%;
+}
