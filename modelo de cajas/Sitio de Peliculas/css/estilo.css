@@ -127,3 +127,7 @@ div.id_detalle_r {
     float: left;
     width: 24.99999%;
 }
+
+div.video:hover {
+    opacity: 0.5;
+}
