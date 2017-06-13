@@ -1,0 +1,15 @@
+
+#principal{
+	margin: 5%;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow:-5px -5px 5px #bc8609;
+}
