@@ -1,15 +1,128 @@
 
 #principal{
-	margin: 5%;
-	padding-top: 3%;
-	padding-left: 5%;
-	padding-right: 5%;
+	
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
 
 }
 
-h1{
+#titulo-sitio{
 	text-align: center;
 	font-size: 4em;
 	color: #d39a0a;
 	text-shadow:-5px -5px 5px #bc8609;
+}
+
+
+
+#detalle_rec{
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	border-bottom: 1.5pt;
+	border-top: 0pt;
+	border-left: 0pt;
+	border-right: 0pt;
+	border-style: outset;
+	width: 75%;
+	display: flex;
+}
+
+
+div.contendor {
+    border: 2px solid #ccc;
+    border-top-left-radius: 50px 25px;
+	border-top-right-radius: 50px 25px;
+	border-bottom-right-radius: 50px 25px;
+	border-bottom-left-radius: 50px 25px;
+	position: relative;
+	height: auto;
+	
+}
+
+div.titulo{
+    position: absolute;
+    font-variant: small-caps;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+    color: #db990a;
+    text-decoration: underline;
+
+}
+
+div.contendor : hover{
+    text-decoration: overline;
+
+}
+
+
+
+div.contendor img {
+    border-top-left-radius: 50px 25px;
+	border-top-right-radius: 50px 25px;
+	border-bottom-right-radius: 50px 25px;
+	border-bottom-left-radius: 50px 25px;
+	
+}
+
+div.contendor img:hover {
+    opacity: 0.5;
+}
+
+div.desc {
+    padding: 3px;
+    text-align: justify;
+    width: 200px;
+    height: 100px;
+    margin-left: 25px;
+
+}
+
+div.categoria{
+ color: #d69f2a;	
+
+}
+
+
+div.detalle_receta{
+	width: 50%;
+	display: flex;	
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 25%;
+	border-bottom: 1pt;
+	border-top: 0pt;
+	border-left: 0pt;
+	border-right: 0pt;
+	border-style: dashed;
+}
+
+
+div.img_receta img {
+	width: 250px; height: 180px;
+    border-top-left-radius: 50px 25px;
+	border-top-right-radius: 50px 25px;
+	border-bottom-right-radius: 50px 25px;
+	border-bottom-left-radius: 50px 25px;
+	
+}
+
+div.contenedor_detalle{
+	text-align: justify;;
+	margin-left: 5%
+}
+
+div.ti_receta{
+	color: red;
+}
+
+div.img_receta img:hover {
+    opacity: 0.5;
+}
+div.audio{
+	height: 40px;
 }
